@@ -11,7 +11,6 @@
       <sprite>sprites\sprite_mago_su</sprite>
       <sprite>sprites\sprite_mago_giu</sprite>
       <sprite>sprites\sprite_mago_sin</sprite>
-      <sprite>sprites\Porco_dio</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">

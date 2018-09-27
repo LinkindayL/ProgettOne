@@ -26,6 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = 0.1
+
+playerSpeed = 1
+
+btnAttack = mb_left
 </string>
           </argument>
         </arguments>
@@ -48,22 +52,30 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Animazini Movimento
+            <string>/// Animazioni Movimento
 if (keyboard_check(vk_left)){
-    sprite_index = sprite_mago_sin
-    x -= 1;
+    sprite_index = sprite_mago_sin;
+    x -= playerSpeed;
 }
 if (keyboard_check(vk_right)){
-    sprite_index = sprite_mago_dex
-    x += 1;
+    sprite_index = sprite_mago_dex;
+    x += playerSpeed;
 }
 if (keyboard_check(vk_up)){
-    sprite_index = sprite_mago_su
-    y -= 1;   
+    sprite_index = sprite_mago_su;
+    y -= playerSpeed;   
 }
 if (keyboard_check(vk_down)){
-    sprite_index = sprite_mago_giu
-    y += 1;    
+    sprite_index = sprite_mago_giu;
+    y += playerSpeed;    
+}
+
+//attacco
+if (mouse_check_button(btnAttack)) {
+   var temp = instance_create(mouse_x, mouse_y, obj_proiettile_staffa);
+   /*with (temp) {
+   /    direction = other.image_angle;
+   }*/
 }
 </string>
           </argument>
