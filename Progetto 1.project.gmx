@@ -6,12 +6,16 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprites name="Mago">
-      <sprite>sprites\sprite_mago_dex</sprite>
-      <sprite>sprites\sprite_mago_su</sprite>
-      <sprite>sprites\sprite_mago_giu</sprite>
-      <sprite>sprites\sprite_mago_sin</sprite>
-      <sprite>sprites\Porco_dio</sprite>
+    <sprites name="Personaggi">
+      <sprites name="Mago">
+        <sprite>sprites\sprite_mago_dex</sprite>
+        <sprite>sprites\sprite_mago_su</sprite>
+        <sprite>sprites\sprite_mago_giu</sprite>
+        <sprite>sprites\sprite_mago_sin</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="Oggetti">
+      <sprite>sprites\proiettile_staffa</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -19,7 +23,13 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\oggetto_giocatore</object>
+    <objects name="Oggetti">
+      <object>objects\obj_proiettile</object>
+      <object>objects\oggetto_proiettile_staffa</object>
+    </objects>
+    <objects name="Personaggi">
+      <object>objects\oggetto_giocatore</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
