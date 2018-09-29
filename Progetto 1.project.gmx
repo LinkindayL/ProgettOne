@@ -8,10 +8,14 @@
   <sprites name="sprites">
     <sprites name="Characters">
       <sprites name="Mage">
-        <sprite>sprites\sprite_mage_right</sprite>
-        <sprite>sprites\sprite_mage_up</sprite>
-        <sprite>sprites\sprite_mage_down</sprite>
-        <sprite>sprites\sprite_mage_left</sprite>
+        <sprite>sprites\sprite_mage_right_move</sprite>
+        <sprite>sprites\sprite_mage_right_idle</sprite>
+        <sprite>sprites\sprite_mage_up_move</sprite>
+        <sprite>sprites\sprite_mage_up_idle</sprite>
+        <sprite>sprites\sprite_mage_down_move</sprite>
+        <sprite>sprites\sprite_mage_down_idle</sprite>
+        <sprite>sprites\sprite_mage_left_move</sprite>
+        <sprite>sprites\sprite_mage_left_idle</sprite>
       </sprites>
     </sprites>
     <sprites name="Items">
